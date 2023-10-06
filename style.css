@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("static/Inter-Bold.woff") format('woff');
+
+
+}
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("static/Inter-Regular.woff") format('woff');
+
+
+}
+@font-face {
+    font-family: "Inter-Extrabold";
+    src: url("static/Inter-ExtraBold.woff") format('woff');
+
+
+}
+
+/*Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    /*background-color: rgb(246, 248, 247);*/
+    padding: 50px 0;
+    margin: 0 100px;
+    
+
+
+}
+
+.header .logo {
+
+    font-size: 25px;
+    color: black;
+ font-family: Inter-ExtraBold;
+
+
+}
+
+
+
+.header-menu-list ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+
+    justify-content: center;
+
+}
+
+
+
+.header-menu-list ul li a {
+    text-decoration: none;
+    margin: 10px 10px;
+    color: rgba(29, 29, 31, 1);
+    font-family: Inter;
+    display: inline-block;
+font-family: Inter-Regular;
+    color: grey;
+}
+
+/*Future Section*/
+.future-section {
+display: flex;
+padding: 0px 80px;
+height: 530px;
+box-sizing: border-box;
+
+}
+
+.future-section .future-header {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.future-section .future-header .future-text {
+   
+
+    display: flex;
+    justify-items: center;
+    margin: 20px 0px 70px 0px;
+box-sizing: border-box;
+width:750px;
+    
+    
+}
+
+.future-section .future-header .future-text h2 {
+    font-size: 55px;
+
+    font-family: Inter-ExtraBold;
+   margin: 0px 90px 0px 0px;
+   width: 300px;
+    
+    
+    
+
+}
+.future-section .future-text .future-text-body{
+ 
+ 
+}
+.future-section .future-header .future-text p{
+    font-family: Inter-Regular;
+  color:rgb(169, 162, 162);
+
+   
+    
+    
+}
+.future-section .future-header .future-text .future-text-body a{
+    text-decoration: none;
+    background-color: tomato;
+    color:white;
+    padding: 10px 40px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.future-section .future-images img {
+ 
+
+    
+
+}
+
+.future-section .new-bar {
+   
+    background-color: rgb(3, 3, 17);
+    color: white;
+    font-family: Inter-Regular;
+padding: 30px;
+width: 350px;
+
+margin: 0 30px;
+
+
+}
+
+.future-section .new-bar h2 {
+    color: goldenrod;
+font-size: 35px;
+
+}
+
+.future-section .new-bar h4 {
+    margin-bottom: 10px;
+}
+.future-section .new-bar p{
+   
+    color:rgb(169, 162, 162);
+}
+.future-section .new-bar-cards .single-card {
+    box-sizing: border-box;
+    margin: 40px 0px;
+ 
+
+
+
+
+}
+.why-choose .why-cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 70px;
+    margin-top: 70px;
+    font-family: Inter-Regular;
+    
+}
+.why-choose .why-cards .single-card{
+    display: flex;
+ margin: 0px 45px 0px 10px;
+
+}
+.why-choose .why-cards .single-card h2{
+    color:rgb(208, 198, 198);
+    font-family: Inter-Bold;
+    
+}
+.why-choose .why-cards .single-card p{
+    font-size: .8em;
+    color: rgb(164, 159, 159);
+    text-align: justify;
+}
+.why-choose .why-cards .single-card img{
+    margin: 0 20px 0px 0px;
+}
